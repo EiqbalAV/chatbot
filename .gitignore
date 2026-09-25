@@ -1,0 +1,38 @@
+# Python Environment & Cache
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment Variables & Secrets (CRITICAL for GitHub Security)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# Streamlit Local Cache & Config
+.streamlit/secrets.toml
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs
+*.log
+logs/
